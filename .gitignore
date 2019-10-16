@@ -1,0 +1,2 @@
+# Ignore the virtual environment folder and only save requirements.txt
+env/
