@@ -2,7 +2,7 @@
 env/
 
 # Ignore the development database
-.sqlite3
+db.sqlite3
 
 # Ignore python bytecode
 .pyc
