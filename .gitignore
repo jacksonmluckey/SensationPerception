@@ -1,2 +1,11 @@
 # Ignore the virtual environment folder and only save requirements.txt
 env/
+
+# Ignore the development database
+.sqlite
+
+# Ignore python bytecode
+.pyc
+
+# Ignore pycache
+SensationPerception/__pycache__/
