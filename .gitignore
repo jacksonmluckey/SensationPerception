@@ -8,4 +8,4 @@ db.sqlite3
 .pyc
 
 # Ignore pycache
-SensationPerception/__pycache__/
+*/__pycache__/
