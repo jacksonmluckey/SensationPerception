@@ -1,9 +1,12 @@
 from django.shortcuts import render
 from django.http import HttpResponse
+from django.template import loader
 
 
 def index(request):
-    return HttpResponse("You're at the splash page for the Sensation and Perception experiment")
+    template = loader.get_template('experiment/index.html')
+    context = {'hacky_solution': True} # Provides the necessary dictionary for the render function (alternative solution requires me to make changes to urls.py and use TemplateView.as_view according to StackOverflow)
+    return HttpResponse(template.render(context, request))
 
 
 def consent(request):
