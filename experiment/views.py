@@ -9,10 +9,6 @@ def index(request):
     return HttpResponse(template.render(context, request))
 
 
-def consent(request):
-    return HttpResponse("You're at the consent page for the Sensation and Perception experiment")
-
-
 def subject_data(request):
     return HttpResponse("You're at the subject data entry page")
 
