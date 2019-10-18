@@ -18,4 +18,6 @@ def instructions(request):
 
 
 def experiment(request):
-    return HttpResponse("experiment!")
+    template = loader.get_template('experiment/experiment.html')
+    context = {'hacky_solution': True}
+    return HttpResponse(template.render(context, request))
