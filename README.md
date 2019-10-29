@@ -1,6 +1,6 @@
 ## To Do
 
-- [ ] Meet with requestors to determine exact requirements and scope
+- [x] Meet with requestors to determine exact requirements and scope
 
 - [ ] Create bare HTML templates
 
@@ -9,8 +9,7 @@
 - [ ] sqlite to R / Python
 
 ## Proposed Page Flow
-1. Index
-2. Consent page
+1. Index + Consent page
 3. Subject data (e.g. first and last names)
 4. Instructions
 5. Experiment
