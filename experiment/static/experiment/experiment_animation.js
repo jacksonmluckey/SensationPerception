@@ -217,11 +217,11 @@ var startTime = 1000,
 	
 // This function will run continuously until it returns true //
 d3.timer(function() {
-	
 	// Define current time from HTML and make test variable (can be commented out/deleted)
 	var curTime = parseFloat($('#totalTime').text()),
 		test = $('#test'),
 		trialType = $('#trialType').text();
+    console.log(curTime);
 	
 	test.text(event2Time);
 	
