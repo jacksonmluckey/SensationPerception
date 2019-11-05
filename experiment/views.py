@@ -14,7 +14,9 @@ def subject_data(request):
 
 
 def instructions(request):
-    return HttpResponse("Instructions for the Sensation and Perception experiment")
+    template = loader.get_template('experiment/instructions.html')
+    context = {'hacky_solution': True}
+    return HttpResponse(template.render(context, request))
 
 
 def experiment(request):
