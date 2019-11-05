@@ -6,10 +6,12 @@
         <script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.0/jquery.js'></script>
         <script type='text/javascript' src='https://d3js.org/d3.v2.js'></script>
         <script type='text/javascript' src='{% static 'experiment/experiment_animation.js' %}'></script>
+    <script type='text/javascript' src='{% static 'experiment/experiment.css' %}'></script>
     </head>
 
     <body>
 
+<p id='svgHere'></p>
 <!-- Any HTML formatting goes here -->
 <p id="trialType" class='updatable'>blank</p>
 <p id="totalTime" class='updatable'>Tes1t</p>
@@ -46,9 +48,8 @@
     
 </form>
 </div>
-<p id="svgHere"></p>
+
 <!-- Main js script goes in a separate document -->
-<script type='text/javascript' src='IBx2imm_mturk_cont.js'></script>
 <script type="text/javascript">
 // For some reason firefox doesn't read display from the CSS so I ghave to change it here. 
 d3.selectAll(".updatable")
@@ -65,5 +66,6 @@ d3.select("#signup")
             
     });
 </script>
+
 </body>
 </html>
