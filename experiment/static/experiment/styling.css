@@ -10,6 +10,6 @@ h2 {
     font: "Open Sans", sans-serif;
 }
 
-button {
-    margin: auto;
+.button-container {
+    text-align: center;
 }
