@@ -2,9 +2,9 @@
 
 - [x] Meet with requestors to determine exact requirements and scope
 
-- [ ] Create bare HTML templates
+- [x] Create bare HTML templates
 
-- [ ] Get D3 / experiment code working
+- [x] Get D3 / experiment code working
 
 - [ ] sqlite to R / Python
 
